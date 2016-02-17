@@ -2,7 +2,7 @@ package com.g3;
 
 import java.util.*;
 /**
- * 	几十几选几的算法
+ * 几十几选几的算法
  * @author Administrator
  *
  */
@@ -34,13 +34,10 @@ public class RandomNum {
 	 * @param args
 	 */
 	public static void main(String args[]) {
-		int a[] = rand(1, 33, 6);
-		System.out.println(a[0]);
-		System.out.println(a[1]);
-		System.out.println(a[2]);
-		System.out.println(a[3]);
-		System.out.println(a[4]);
-		System.out.println(a[5]);
+		int a[] = rand(1, 33, 6);//模仿双色球
+		for (int i : a) {
+			System.out.println(i);
+		}
 	}
 
 }
